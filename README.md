@@ -1,13 +1,14 @@
-# Heart Disease MLOps Project
+# Heart Disease Predictor 
 
 ## MLOps End-to-End ML Model Development, CI/CD, and Production Deployment
 
-### Course: MLOps (S2-25_AMLCSZG523)
-### Assignment 1 
+### MLOps (S2-25_AMLCSZG523) Asignment
+
+### Author : Sannidhi Gokhale (2025CS05064)
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements a complete MLOps pipeline for predicting heart disease risk using the UCI Heart Disease dataset. It demonstrates modern MLOps best practices including:
 
@@ -19,7 +20,7 @@ This project implements a complete MLOps pipeline for predicting heart disease r
 - Kubernetes deployment
 - Monitoring and logging
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 heart-disease-mlops/
@@ -45,7 +46,7 @@ heart-disease-mlops/
 └── README.md
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -92,14 +93,14 @@ docker build -t heart-disease-api:latest .
 docker run -p 8000:8000 heart-disease-api:latest
 ```
 
-## 📊 Dataset
+## Dataset
 
 **Heart Disease UCI Dataset**
 - Source: UCI Machine Learning Repository
 - Features: 14 attributes (age, sex, blood pressure, cholesterol, etc.)
 - Target: Binary classification (presence/absence of heart disease)
 
-## 🔧 API Endpoints
+## API Endpoints
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -130,7 +131,7 @@ curl -X POST "http://localhost:8000/predict" \
   }'
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -140,7 +141,7 @@ pytest tests/ -v
 pytest tests/ -v --cov=src --cov-report=html
 ```
 
-## 🐳 Docker
+## Docker
 
 ```bash
 # Build image
@@ -153,7 +154,7 @@ docker run -d -p 8000:8000 --name heart-disease-api heart-disease-api:latest
 docker logs heart-disease-api
 ```
 
-## ☸️ Kubernetes Deployment
+## Kubernetes Deployment
 
 ```bash
 # Start Minikube
@@ -179,25 +180,4 @@ mlflow ui --port 5000
 # Open browser: http://localhost:5000
 ```
 
-## 📝 Marking Scheme
 
-| Task | Marks |
-|------|-------|
-| Data Acquisition & EDA | 5 |
-| Feature Engineering & Model Development | 8 |
-| Experiment Tracking | 5 |
-| Model Packaging & Reproducibility | 7 |
-| CI/CD Pipeline & Automated Testing | 8 |
-| Model Containerization | 5 |
-| Production Deployment | 7 |
-| Monitoring & Logging | 3 |
-| Documentation & Reporting | 2 |
-| **Total** | **50** |
-
-## 👤 Author
-
-BITS Pilani - MLOps Course Assignment
-
-## 📄 License
-
-This project is for educational purposes only.
