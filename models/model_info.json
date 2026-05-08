@@ -1,0 +1,17 @@
+{
+    "model_name": "Logistic Regression",
+    "model_type": "LogisticRegression",
+    "metrics": {
+        "accuracy": 0.8688524590163934,
+        "precision": 0.8333333333333334,
+        "recall": 0.8928571428571429,
+        "f1_score": 0.8620689655172413,
+        "roc_auc": 0.9621212121212122,
+        "cv_roc_auc_mean": 0.8936347871130479,
+        "cv_roc_auc_std": 0.0508739065389745
+    },
+    "training_date": "2026-05-03T16:51:02.691093",
+    "feature_count": 20,
+    "training_samples": 242,
+    "test_samples": 61
+}
