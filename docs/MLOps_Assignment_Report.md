@@ -31,7 +31,7 @@
 
 ```bash
 # 1. Clone the repository
-git clone <your-repository-url>
+git clone https://github.com/sanngokhale/heart-disease-mlops
 cd heart-disease-mlops
 
 # 2. Create virtual environment
