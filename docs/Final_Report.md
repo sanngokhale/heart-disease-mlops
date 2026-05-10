@@ -32,11 +32,16 @@ The repository contains:
 | CI/CD Workflow | `.github/workflows/ci.yml` |
 | Kubernetes Manifests | `kubernetes/` (deployment, service, hpa) |
 | Screenshots | `screenshots/` |
-| Final Report | `docs/Final_Report.docx` |
+| Final Report | `docs/Final_Report.pdf` |
 
 ### Part B: Demo Video
+**Video link:** https://app.vidcast.io/share/b881e02e-417f-4034-b4e5-a1e473485223
 
-**Duration:** 3 minutes  
+**Google drive link (incase vidcast is not available):** 
+https://drive.google.com/file/d/1_Mv4MZGSNSAMa0RxJThZRMDwohbXbjxM/view?usp=sharing
+
+**Duration:** 3 minutes
+
 **Contents:** End-to-end pipeline demonstration covering:
 - Data preprocessing and model training with MLflow
 - Model packaging (joblib serialization)
@@ -45,8 +50,8 @@ The repository contains:
 - API testing via Swagger UI
 - Prometheus metrics monitoring
 
-### Part C: Deployed API Access
 
+### Part C: Deployed API Access
 
 **Local Testing Instructions:**
 ```bash
