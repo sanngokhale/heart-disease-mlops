@@ -12,6 +12,62 @@
 
 ---
 
+## Deliverables
+
+### Part A: GitHub Repository
+
+**Repository URL:** https://github.com/sanngokhale/heart-disease-mlops
+
+The repository contains:
+| Item | Location |
+|------|----------|
+| Source Code | `src/` (API, data processing, models) |
+| Dockerfile | `Dockerfile` (multi-stage build) |
+| Requirements | `requirements.txt` |
+| Cleaned Dataset | `data/processed/heart_disease_preprocessed.csv` |
+| Download Script | `src/data/download_data.py` |
+| EDA Notebook | `notebooks/01_EDA.ipynb` |
+| Training Script | `src/models/train_with_mlflow.py` |
+| Unit Tests | `tests/` (27 tests) |
+| CI/CD Workflow | `.github/workflows/ci.yml` |
+| Kubernetes Manifests | `kubernetes/` (deployment, service, hpa) |
+| Screenshots | `screenshots/` |
+| Final Report | `docs/Final_Report.docx` |
+
+### Part B: Demo Video
+
+**Duration:** 3 minutes  
+**Contents:** End-to-end pipeline demonstration covering:
+- Data preprocessing and model training with MLflow
+- Model packaging (joblib serialization)
+- Unit testing and Docker containerization
+- Kubernetes deployment with auto-scaling
+- API testing via Swagger UI
+- Prometheus metrics monitoring
+
+### Part C: Deployed API Access
+
+
+**Local Testing Instructions:**
+```bash
+# 1. Clone repository
+git clone https://github.com/sanngokhale/heart-disease-mlops.git
+cd heart-disease-mlops
+
+# 2. Start Kubernetes deployment
+kubectl apply -f kubernetes/
+
+# 3. Port forward to access API
+kubectl port-forward svc/heart-disease-api-service 8080:80 -n mlops-heart-disease
+
+# 4. Access endpoints
+# Health: http://localhost:8080/health
+# Swagger UI: http://localhost:8080/docs
+# Predict: POST http://localhost:8080/predict
+```
+
+---
+
 ## Table of Contents
 
 1. Executive Summary

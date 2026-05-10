@@ -10,7 +10,7 @@
         "cv_roc_auc_mean": 0.8936347871130479,
         "cv_roc_auc_std": 0.0508739065389745
     },
-    "training_date": "2026-05-03T16:51:02.691093",
+    "training_date": "2026-05-10T14:52:59.757413",
     "feature_count": 20,
     "training_samples": 242,
     "test_samples": 61
