@@ -4,7 +4,7 @@
 **Course:** MLOps (S2-25_AMLCSZG523)  
 **Assignment:** Assignment 1  
 **Date:** May 2026  
-**Repository:** [GitHub Link - Add Your URL Here]
+**Repository:** https://github.com/sanngokhale/heart-disease-mlops
 
 ---
 
