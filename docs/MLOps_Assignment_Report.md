@@ -1,4 +1,4 @@
-# MLOps Assignment Report
+# Execution steps and complete workflow
 ## Heart Disease Prediction - End-to-End MLOps Pipeline
 
 **Course:** MLOps (S2-25_AMLCSZG523)  
